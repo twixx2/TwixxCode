@@ -1,0 +1,392 @@
+/*
+1200
+992
+768
+576 
+*/
+
+
+@media (max-width: 1200px) {}
+
+
+@media (max-width: 992px) {
+    .logo {
+        font-size: 32px;
+    }
+
+    .header__content h1 {
+        font-size: 80px;
+    }
+
+    .header__content h2 {
+        font-size: 40px;
+    }
+
+    .header__content p {
+        max-width: 550px;
+        font-size: 22px;
+    }
+
+    .about h2 {
+        font-size: 50px;
+        margin-bottom: 70px;
+    }
+
+    .bio__content {
+        padding: 32px;
+    }
+
+    .bio__content p {
+        font-size: 18px;
+    }
+
+    .bio h3 {
+        font-size: 32px;
+    }
+
+    .skills__content {
+        padding: 32px;
+    }
+
+    .skills__content p {
+        font-size: 18px;
+    }
+
+    .skills h3 {
+        font-size: 32px;
+    }
+
+    .item img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .reason__content {
+        padding: 32px;
+    }
+
+    .reason__content h4 {
+        font-size: 18px;
+    }
+
+    .reason h3 {
+        font-size: 32px;
+    }
+
+    .portfolio h2 {
+        font-size: 50px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .project__content h3 {
+        font-size: 36px;
+    }
+
+    .project p {
+        font-size: 17px;
+    }
+
+    .project__links a {
+        padding: 11px;
+    }
+
+    .main {
+        margin-top: 50px;
+    }
+
+    .reviews h3 {
+        margin-bottom: 50px;
+    }
+
+    .contacts h2 {
+        font-size: 50px;
+    }
+
+
+}
+
+@media (max-width: 900px) {
+
+    .bio {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .skills {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .skills h3 {
+        order: -1;
+    }
+
+    .reason {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .reviews__content {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .bio__content {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .skills__content {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .reason__content {
+        width: 100%;
+        max-width: 500px;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+
+    .nav {
+        position: relative;
+        z-index: 10;
+    }
+
+    .logo {
+        font-size: 28px;
+    }
+
+    .header__content h1 {
+        font-size: 72px;
+    }
+
+    .header__content h2 {
+        font-size: 36px;
+    }
+
+    .header__content p {
+        max-width: 500px;
+        font-size: 20px;
+    }
+
+    .header__content button {
+        padding: 12px;
+    }
+
+    .header__content button span {
+        font-size: 16px;
+    }
+
+    .nav__menu-btn {
+        transform: scale(1);
+    }
+
+    .nav__list {
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: flex-start;
+        padding: 10px;
+        z-index: 11;
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%) scaleY(0);
+        transform-origin: top;
+        height: auto;
+        gap: 10px;
+    }
+
+    .nav__list-link {
+        width: 100%;
+    }
+
+    .nav__list.burger {
+        transform: translateX(-50%) scaleY(1) !important
+    }
+
+    .about h2 {
+        font-size: 40px;
+    }
+
+    .bio h3 {
+        font-size: 28px;
+    }
+
+    .bio__content p {
+        font-size: 17px;
+    }
+
+    .skills h3 {
+        font-size: 28px;
+    }
+
+    .skills__content p {
+        font-size: 17px;
+    }
+
+    .reason h3 {
+        font-size: 28px;
+    }
+
+    .reason__content h4 {
+        font-size: 17px;
+    }
+
+    .reviews h3 {
+        font-size: 28px;
+    }
+
+    .portfolio h2 {
+        font-size: 40px;
+    }
+
+    .project__content h3 {
+        font-size: 34px;
+    }
+
+    .project p {
+        font-size: 16px;
+    }
+
+    .portfolio__tabs {
+        gap: 15px;
+    }
+
+    .contacts h2 {
+        font-size: 40px;
+    }
+
+    .contacts h3 {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .logo {
+        font-size: 22px;
+    }
+
+    .header__content h1 {
+        font-size: 70px;
+    }
+
+    .header__content h2 {
+        font-size: 32px;
+    }
+
+    .header__content p {
+        max-width: 500px;
+        font-size: 18px;
+    }
+
+    .header__content button {
+        padding: 12px;
+    }
+
+    .header__content button span {
+        font-size: 16px;
+    }
+
+    .about h2 {
+        font-size: 34px;
+    }
+
+    .bio h3 {
+        font-size: 25px;
+    }
+
+    .bio__content p {
+        font-size: 15px;
+    }
+
+    .bio__content p:nth-of-type(1) {
+        max-width: 380px;
+    }
+
+    .skills h3 {
+        font-size: 25px;
+    }
+
+    .skills__content p {
+        font-size: 15px;
+        line-height: 1.3;
+    }
+
+    .skills__content {
+        justify-content: center;
+    }
+
+    .reason h3 {
+        font-size: 25px;
+    }
+
+    .reason__content h4 {
+        font-size: 15px;
+    }
+
+    .item {
+        display: none;
+    }
+
+    .reviews h3 {
+        font-size: 30px;
+    }
+
+    .portfolio h2 {
+        font-size: 34px;
+    }
+
+    .project__content h3 {
+        font-size: 28px;
+    }
+
+    .project p {
+        font-size: 15px;
+    }
+
+    .portfolio__tabs {
+        gap: 10px;
+    }
+
+    .portfolio__tabs button {
+        padding: 8px;
+    }
+
+    .project__photos {
+        display: none;
+    }
+
+    .contacts h2 {
+        font-size: 34px;
+    }
+
+    .contacts h3 {
+        font-size: 18px;
+    }
+
+    .contact {
+        padding: 20px;
+    }
+
+    .header__content {
+        min-height: 800px;
+    }
+
+}
+
+@media (max-width: 410px) {
+
+    .project__links {
+        flex-direction: column;
+        align-items: start;
+        gap: 15px;
+    }
+
+}

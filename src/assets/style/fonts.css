@@ -1,0 +1,15 @@
+@font-face {
+    font-family:'Ubunty';
+    src: url('../fonts/Ubuntu-Regular.ttf');
+    font-weight: 400;   
+}
+@font-face {
+    font-family:'Ubunty';
+    src: url('../fonts/Ubuntu-Bold.ttf');
+    font-weight: 200;   
+}
+@font-face {
+    font-family:'Orbitron';
+    src: url('../fonts/Orbitron-Medium.ttf');
+    font-weight: 500;   
+}

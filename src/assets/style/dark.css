@@ -1,0 +1,273 @@
+body.dark {
+    background: #121212;
+}
+
+body.dark .wrapper {
+    background-image: url('../../widgets/Header/111.png');
+}
+
+body.dark .wrapper::before {
+    opacity: 0.2;
+    pointer-events: none;
+}
+
+body.dark .header__content p {
+        
+}
+
+body.dark .header__content h2 span {
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(1deg,
+            #00d2ff 0%,
+            #00a1ff 40%,
+            #0071e6 70%,
+            #0050cc 100%);
+}
+
+body.dark .header__content a {
+    background-image: linear-gradient(1deg,
+            #00d2ff 0%,
+            #00a1ff 40%,
+            #0071e6 70%,
+            #0050cc 100%);
+}
+
+body.dark .header__content a:hover span {
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(1deg,
+            #00d2ff 0%,
+            #00a1ff 40%,
+            #0071e6 70%,
+            #0050cc 100%);
+}
+
+body.dark .nav__menu-btn-line {
+    background-image: linear-gradient(1deg,
+            #00d2ff 0%,
+            #00a1ff 40%,
+            #0071e6 70%,
+            #0050cc 100%);
+}
+
+body.dark .nav__menu-btn-line::after {
+    background-image: linear-gradient(1deg,
+            #00d2ff 0%,
+            #00a1ff 40%,
+            #0071e6 70%,
+            #0050cc 100%);
+}
+
+body.dark .nav__menu-btn-line::before {
+    background-image: linear-gradient(1deg,
+            #00d2ff 0%,
+            #00a1ff 40%,
+            #0071e6 70%,
+            #0050cc 100%);
+}
+
+body.dark .nav__list-link:hover {
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(1deg,
+            #00d2ff 0%,
+            #00a1ff 40%,
+            #0071e6 70%,
+            #0050cc 100%);
+    box-shadow: 0 1px 3px 0 rgba(255, 255, 255, 0.3), 0 4px 8px 3px rgba(255, 255, 255, 0.15);
+}
+
+body.dark .nav__list {
+    background: #2C2C2C;
+    border: none;
+}
+
+body.dark .logo {
+    color: white;
+}
+
+body.dark .nav__list-link {
+    color: #e0e0e0;
+}
+
+body.dark .bio h3 {
+    color: #e0e0e0;
+}
+
+body.dark .skills h3 {
+    color: #e0e0e0;
+}
+
+body.dark .reason h3 {
+    color: #e0e0e0;
+}
+
+body.dark .reviews h3 {
+    color: #e0e0e0
+}
+
+body.dark .bio__content {
+    background: #2C2C2C;
+}
+
+body.dark .bio__content p {
+    color: #e0e0e0;
+}
+
+body.dark .skills__content {
+    background: #2C2C2C;
+}
+
+body.dark .skills__content p {
+    color: #e0e0e0;
+}
+
+body.dark .reason__content {
+    background: #2C2C2C;
+}
+
+body.dark .reason__content h4 {
+    color: #e0e0e0;
+}
+
+body.dark .reason__content h4 svg {
+    color: #e0e0e0;
+    fill: currentColor;
+}
+
+body.dark .review-card {
+    background: #2C2C2C;
+}
+
+body.dark .review-name {
+    color: #e0e0e0;
+}
+
+body.dark .review-text {
+    color: #e0e0e0;
+}
+
+body.dark .review-card:hover {
+    box-shadow: 0 4px 10px 0 rgba(255, 255, 255, 0.5), 0 8px 20px 5px rgba(255, 255, 255, 0.3);
+}
+
+body.dark .about h2 {
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(1deg,
+            #00d2ff 0%,
+            #00a1ff 40%,
+            #0071e6 70%,
+            #0050cc 100%);
+}
+
+body.dark .reason h3 span {
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(1deg,
+            #00d2ff 0%,
+            #00a1ff 40%,
+            #0071e6 70%,
+            #0050cc 100%);
+}
+
+body.dark .reviews h3 span {
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(1deg,
+            #00d2ff 0%,
+            #00a1ff 40%,
+            #0071e6 70%,
+            #0050cc 100%);
+}
+
+body.dark .portfolio h2 {
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(1deg,
+            #00d2ff 0%,
+            #00a1ff 40%,
+            #0071e6 70%,
+            #0050cc 100%);
+}
+
+body.dark .portfolio__tabs button {
+    color: #e0e0e0;
+}
+
+body.dark .portfolio__tabs button:hover {
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(1deg,
+            #00d2ff 0%,
+            #00a1ff 40%,
+            #0071e6 70%,
+            #0050cc 100%);
+    box-shadow: 0 1px 3px 0 rgba(255, 255, 255, 0.3), 0 4px 8px 3px rgba(255, 255, 255, 0.15);
+
+}
+
+body.dark .portfolio__tabs button.active {
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(1deg,
+            #00d2ff 0%,
+            #00a1ff 40%,
+            #0071e6 70%,
+            #0050cc 100%);
+}
+
+body.dark .portfolio__tabs {
+    background: #2C2C2C;
+    border: none;
+}
+
+body.dark .project__content {
+    background: #2C2C2C;
+}
+
+body.dark .project__content h3 {
+    color: #e0e0e0;
+}
+
+body.dark .project__content p {
+    color: #e0e0e0;
+}
+
+
+body.dark .contacts h2 {
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(1deg,
+            #00d2ff 0%,
+            #00a1ff 40%,
+            #0071e6 70%,
+            #0050cc 100%);
+}
+
+body.dark .contacts h3 {
+    color: #e0e0e0;
+}
+
+body.dark .contact {
+    background: #2C2C2C;
+}
+
+body.dark .contacts__content input{
+    background: #d3d3d3;
+    border: none;
+}
+
+body.dark .contacts__content textarea{
+    background: #d3d3d3;
+    border: none;
+}
+
+body.dark .contacts__content input::placeholder{
+    color: #333333;
+}
+
+body.dark .contacts__content textarea::placeholder{
+    color: #333333;
+}

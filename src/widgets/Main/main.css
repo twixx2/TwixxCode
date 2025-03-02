@@ -1,0 +1,552 @@
+.main {
+    min-height: 1400px;
+    margin-top: 100px;
+}
+
+/* About */
+
+.about h2 {
+    font-size: 55px;
+    font-family: 'Montserrat';
+    text-align: center;
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(var(--token-5f85800f-b866-49ca-9bd1-d9993234a98c, rgb(97, 100, 234)) 8%,
+            var(--token-16f5044d-11e2-4841-ad0a-6923237542c7, rgb(250, 126, 107)) 94%);
+    margin-bottom: 100px;
+    transition: .5s;
+}
+
+.about__content p {
+    font-size: 25px;
+    max-width: 710px;
+    color: #000;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    transition: .5s;
+}
+
+.about__content {
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    transition: .5s;
+}
+
+.about__content p span {
+    font-weight: 700;
+    transition: .5s;
+}
+
+/* About */
+
+
+/* Bio */
+
+.bio {
+    display: flex;
+    min-height: 300px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bio h3 {
+    font-size: 35px;
+    font-family: 'Ubunty';
+    color: #000;
+    margin: 0 auto;
+    transition: .5s;
+
+}
+
+.bio__content {
+    background-color: #f5f5f5;
+    width: 50%;
+    height: 300px;
+    border-radius: 50px;
+    padding: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    transition: .5s;
+
+}
+
+.bio__content p {
+    font-size: 18px;
+    color: gray;
+    font-family: 'Ubunty';
+    transition: .5s;
+
+}
+
+/* Bio */
+
+
+/* Skills */
+
+.skills {
+    display: flex;
+    min-height: 300px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px !important;
+    transition: .5s;
+}
+
+.skills h3 {
+    font-size: 35px;
+    font-family: 'Ubunty';
+    color: #000;
+    margin: 0 auto;
+    transition: .5s;
+}
+
+.skills__content {
+    background-color: #f5f5f5;
+    width: 50%;
+    height: 300px;
+    border-radius: 50px;
+    padding: 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    transition: .5s;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: .5s;
+}
+
+.skills__content p {
+    font-size: 18px;
+    color: gray;
+    font-family: 'Ubunty';
+    transition: .5s;
+}
+
+/* Skills */
+
+
+
+
+/* Reasons */
+
+.reason {
+    display: flex;
+    min-height: 300px;
+    justify-content: space-between;
+    align-items: center;
+    transition: .5s;
+    margin-top: 100px !important;
+}
+
+.reason h3 {
+    font-size: 35px;
+    font-family: 'Ubunty';
+    color: #000;
+    transition: .5s;
+    margin: 0 auto;
+}
+
+.reason h3 span {
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(var(--token-5f85800f-b866-49ca-9bd1-d9993234a98c, rgb(97, 100, 234)) 8%,
+            var(--token-16f5044d-11e2-4841-ad0a-6923237542c7, rgb(250, 126, 107)) 94%);
+
+}
+
+.reason__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    width: 50%;
+    height: 300px;
+    border-radius: 50px;
+    transition: .5s;
+    padding: 36px;
+}
+
+.reason__content h4 {
+    font-size: 18px;
+    font-family: 'Ubunty';
+    color: gray;
+    transition: .5s;
+    letter-spacing: 1px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Reasons */
+
+
+
+/* reviews */
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: .5s;
+    margin-top: 100px !important;
+}
+
+.reviews h3 {
+    font-size: 35px;
+    font-family: 'Ubunty';
+    transition: .5s;
+    color: #000;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.reviews h3 span {
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(var(--token-5f85800f-b866-49ca-9bd1-d9993234a98c, rgb(97, 100, 234)) 8%,
+            var(--token-16f5044d-11e2-4841-ad0a-6923237542c7, rgb(250, 126, 107)) 94%);
+}
+
+.reviews__content {
+    margin: 0 auto;
+    display: flex;
+    transition: .5s;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    max-width: 850px;
+}
+
+.review-card {
+    width: 100%;
+    max-width: 400px;
+    transition: .5s;
+    height: auto;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    transition: .5s all;
+}
+
+.review-card:hover {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 4px 8px 3px rgba(0, 0, 0, 0.15);
+}
+
+.review-header {
+    display: flex;
+    transition: .5s;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    background-color: #ccc;
+    border-radius: 50%;
+    transition: .5s;
+    margin-right: 15px;
+}
+
+.review-info {
+    display: flex;
+    transition: .5s;
+    flex-direction: column;
+}
+
+.review-name {
+    font-size: 16px;
+    transition: .5s;
+    font-weight: bold;
+    font-family: 'Ubunty';
+}
+
+.stars {
+    font-size: 18px;
+    transition: .5s;
+    color: gold;
+}
+
+.review-text {
+    font-size: 14px;
+    transition: .5s;
+    color: #555;
+    line-height: 1.6;
+    font-family: 'Ubunty';
+}
+
+/* reviews */
+
+
+
+/* Portfolio */
+
+.portfolio h2 {
+    font-size: 55px;
+    font-family: 'Montserrat';
+    text-align: center;
+    transition: .5s;
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(var(--token-5f85800f-b866-49ca-9bd1-d9993234a98c, rgb(97, 100, 234)) 8%,
+            var(--token-16f5044d-11e2-4841-ad0a-6923237542c7, rgb(250, 126, 107)) 94%);
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.project__content h3 {
+    transition: .5s;
+    font-size: 40px;
+    font-family: 'Ubunty';
+    color: #000;
+}
+
+.project__content {
+    background-color: #f5f5f5;
+    border-radius: 50px;
+    transition: .5s;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.project__photos img {
+    transition: .5s;
+    width: 100%;
+    max-height: 600px;
+    border-radius: 50px;
+
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    transition: .5s;
+    gap: 15px;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    transition: .5s;
+}
+
+.project p {
+    font-size: 18px;
+    transition: .5s;
+    color: gray;
+    font-family: 'Ubunty';
+}
+
+.project__links {
+    transition: .5s;
+    display: flex;
+    gap: 25px;
+}
+
+.project__links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    transition: .5s;
+    background: #000;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: box-shadow 0.5s;
+    font-family: 'Ubunty';
+}
+
+.project__links a:hover {
+    box-shadow: 0 0 15px rgba(128, 0, 128, 0.8);
+}
+
+.project__links a span {
+    background: linear-gradient(to right, #800080 0%, #800080 50%, #fff 50%, #fff 100%);
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: .5s;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.5s;
+}
+
+.project__links a:hover span {
+    background-position: 0;
+}
+
+.tabs {
+    padding: 0 15px;
+    width: 100%;
+    max-width: max-content;
+    transition: .5s;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.portfolio__tabs {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+    transition: .5s;
+    border-radius: 15px;
+    background: #FAFAFA;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 4px 8px 3px rgba(0, 0, 0, 0.01);
+    border: 1px #838383 solid;
+}
+
+.portfolio__tabs button {
+    text-decoration: none;
+    font-family: 'Ubunty';
+    font-size: 18px;
+    transition: .5s;
+    border-radius: 15px;
+    color: #000;
+    transition: 0.5s;
+    cursor: pointer;
+    display: block;
+    padding: 10px;
+}
+
+.portfolio__tabs button:hover {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 4px 8px 3px rgba(0, 0, 0, 0.15);
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(114deg,
+            var(--token-5f85800f-b866-49ca-9bd1-d9993234a98c, rgb(97, 100, 234)) 8%,
+            var(--token-16f5044d-11e2-4841-ad0a-6923237542c7, rgb(250, 126, 107)) 94%);
+}
+
+.portfolio__tabs button.active {
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(114deg,
+            var(--token-5f85800f-b866-49ca-9bd1-d9993234a98c, rgb(97, 100, 234)) 8%,
+            var(--token-16f5044d-11e2-4841-ad0a-6923237542c7, rgb(250, 126, 107)) 94%);
+
+}
+
+
+/* Portfolio */
+
+
+/* Сontacts*/
+
+
+.contacts h2 {
+    transition: 0.5s;
+    font-size: 55px;
+    font-family: 'Montserrat';
+    text-align: center;
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(var(--token-5f85800f-b866-49ca-9bd1-d9993234a98c, rgb(97, 100, 234)) 8%,
+            var(--token-16f5044d-11e2-4841-ad0a-6923237542c7, rgb(250, 126, 107)) 94%);
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+
+.contacts h3 {
+    font-family: 'Ubunty';
+    transition: 0.5s;
+    color: gray;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+
+.contacts__content {
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s;
+    align-items: center;
+    gap: 30px;
+}
+
+.contacts__content input {
+    border: 2px gray solid;
+    width: 100%;
+    min-height: 40px;
+    border-radius: 5px;
+    padding: 0 10px;
+    transition: 0.5s;
+    font-size: 18px;
+    color: black;
+    font-family: 'Ubunty';
+    background: white;
+}
+
+.contacts__content textarea {
+    border: 2px gray solid;
+    width: 100%;
+    min-height: 150px;
+    transition: 0.5s;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    color: black;
+    font-family: 'Ubunty';
+    background: white;
+}
+
+
+.contacts__content input::placeholder {
+    font-size: 18px;
+    transition: 0.5s;
+    font-family: 'Ubunty';
+}
+
+.contacts__content textarea::placeholder {
+    font-size: 18px;
+    transition: 0.5s;
+    font-family: 'Ubunty';
+}
+
+.contact {
+    width: 100%;
+    max-width: 580px;
+    min-height: 440px;
+    transition: 0.5s;
+    padding: 40px;
+    margin: 0 auto;
+    border-radius: 20px;
+    background: #f5f5f5;
+}
+
+.contacts__content button {
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 20px;
+    display: flex;
+    transition: 0.5s;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    background: black;
+    height: 40px;
+    width: 100%;
+}
+
+.contacts__content button span {
+    transition: 0.5s;
+    color: white;
+    font-size: 20px;
+    font-family: 'Ubunty';
+}
+
+.titles {
+    padding: 0 15px;
+}
+
+/* Сontacts*/
