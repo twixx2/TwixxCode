@@ -11,10 +11,6 @@ body.dark .wrapper::before {
     pointer-events: none;
 }
 
-body.dark .header__content p {
-        
-}
-
 body.dark .header__content h2 span {
     color: transparent;
     background-clip: text;
@@ -254,20 +250,20 @@ body.dark .contact {
     background: #2C2C2C;
 }
 
-body.dark .contacts__content input{
+body.dark .contacts__content input {
     background: #d3d3d3;
     border: none;
 }
 
-body.dark .contacts__content textarea{
+body.dark .contacts__content textarea {
     background: #d3d3d3;
     border: none;
 }
 
-body.dark .contacts__content input::placeholder{
+body.dark .contacts__content input::placeholder {
     color: #333333;
 }
 
-body.dark .contacts__content textarea::placeholder{
+body.dark .contacts__content textarea::placeholder {
     color: #333333;
 }

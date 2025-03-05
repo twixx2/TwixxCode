@@ -30,7 +30,7 @@ const Reviews = () => {
     return (
         <div className="reviews container">
 
-            <h3>Что они <span>говорят</span>  обо мне</h3>
+            <h3> <span>Доверие</span> в словах </h3>
 
             <div className="reviews__content">
 

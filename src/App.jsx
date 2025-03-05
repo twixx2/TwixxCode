@@ -5,6 +5,7 @@ import Topic from "./assets/images/topic.png"
 import Gaming from "./assets/images/Lux-Gaming.png"
 import Mexant from "./assets/images/Mexant.png"
 import Design from "./assets/images/Design.png"
+import notes from "./assets/images/notes.png"
 import { useState, useEffect } from "react";
 
 
@@ -80,6 +81,14 @@ const App = () => {
       descr: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam necessitatibus explicabo quaerat quod a doloribus quas esse iure at corporis alias est similique saepe voluptate odit vitae, optio dignissimos ad? Quam iusto cumque voluptatibus autem debitis nihil iste et enim est quasi illum aspernatur id, deserunt quas rerum totam quis.',
       github: 'https://github.com/mirsaid9945/Pop-Design',
       chek: 'https://mirsaid9945.github.io/Pop-Design/',
+    },
+
+    {
+      title: 'Notes',
+      image: notes,
+      descr: 'Веб-приложение для создания и управления заметками. Минималистичный интерфейс без лишних элементов, удобный формат редактирования и удаления заметок. Данные сохраняются в локальном хранилище, поэтому заметки остаются даже после закрытия страницы. Используется React и Vite для быстрой и отзывчивой работы.',
+      github: 'https://github.com/twixx2/NoteApp',
+      chek: 'https://notique.vercel.app',
     },
 
   ];
