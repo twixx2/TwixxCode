@@ -7,7 +7,7 @@
 
 .about h2 {
     font-size: 55px;
-    font-family: 'Montserrat';
+    font-family: 'Ubunty';
     text-align: center;
     color: transparent;
     background-clip: text;
@@ -21,7 +21,7 @@
     font-size: 25px;
     max-width: 710px;
     color: #000;
-    font-family: 'Montserrat';
+    font-family: 'Ubunty';
     font-weight: 500;
     transition: .5s;
 }
@@ -290,7 +290,8 @@
 
 .portfolio h2 {
     font-size: 55px;
-    font-family: 'Montserrat';
+    font-family: 'Ubunty';
+
     text-align: center;
     transition: .5s;
     color: transparent;
@@ -446,7 +447,7 @@
 .contacts h2 {
     transition: 0.5s;
     font-size: 55px;
-    font-family: 'Montserrat';
+    font-family: 'Ubunty';
     text-align: center;
     color: transparent;
     background-clip: text;
