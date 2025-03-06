@@ -7,7 +7,7 @@ body.dark .wrapper {
 }
 
 body.dark .wrapper::before {
-    opacity: 0.2;
+    opacity: 0.05;
     pointer-events: none;
 }
 
