@@ -321,6 +321,7 @@
 
     .skills__content {
         justify-content: center;
+        height: max-content;
     }
 
     .reason h3 {
@@ -332,7 +333,14 @@
     }
 
     .item {
-        display: none;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: space-between;
+    }
+
+    .item img {
+        width: 24px;
+        height: 24px;
     }
 
     .reviews h3 {
